@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Movie Recommendation App</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>Movie Recommendation App</h1>
+    <div id="form">
+      <label for="genre">Genre:</label>
+      <input type="text" id="genre"><br>
+      <label for="rating">Rating:</label>
+      <input type="number" id="rating"><br>
+      <label for="year">Release Year:</label>
+      <input type="number" id="year"><br>
+      <button onclick="getRecommendations()">Get Recommendations</button>
+    </div>
+    <div id="recommendations"></div>
+    <script src="app.js"></script>
+  </body>
+</html>
